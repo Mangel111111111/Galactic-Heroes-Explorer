@@ -1,0 +1,19 @@
+footer{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(32, 35, 41);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: white;
+}
+body{
+    background:url(../img/Designer.jpeg) ; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
