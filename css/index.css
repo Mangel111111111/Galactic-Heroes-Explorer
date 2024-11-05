@@ -10,3 +10,12 @@ body{
     width: 300px;
     margin: 20px;
 }
+.card-body h4{
+    color: chocolate;
+}
+.cardsCharacters{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}

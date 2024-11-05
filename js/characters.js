@@ -16,10 +16,15 @@ function createCharacterCard ({id, name, race, gender, ki, maxKi, affiliation, i
 return `<div class="card-group">
                 <div class="card" id='allCards'>
                     <img src="${image}" class="card-img-top" alt="" id='allCards'>
-                    <div class="card-body" id='allCards'>
-                        <h5 class="card-title" id='allCards'>${id} - ${name}</h5>
-                        <h6 class="card-text" id='allCards'> Race ${race}</h6>
-                        <p class="card-text"><small class="text-muted" id='descriptionCards'>Base Ki: ${ki}</small></p>
+                    <div class="card-body">
+                        <h1>${name}</h1>
+                        <h3>${race} - ${gender}</h3>
+                        <h4>Base KI:</h4>
+                        <h3>${ki}</h3>
+                        <h4>Total KI:</h4>
+                        <h3>${maxKi}</h3>
+                        <h4>Afilliation:</h4>
+                        <h3>${affiliation}</h3>
                     </div>
                 </div>
             </div>
