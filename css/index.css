@@ -1,32 +1,27 @@
 footer{
-    text-align: center;
-    background-color: #ff6600ed;
+    background-color: #e1840af5;
     color: white;
-    display: grid;
-
+    text-align: center;
+    padding: 20px 0;
+    flex-shrink: 0;
 }
-img{
-    width: 20%;
-    height: 20%;
-}
-.contactInfoFooter{
-    display: grid;
-    grid-template-columns: repeat(20,1fr);
-    grid-template-rows: repeat(3,1fr);
-    column-gap: 20px;
+table {
+    width: 50%;
     margin: 0 auto;
+    border-collapse: collapse;
 }
-#linkedIn{
-    grid-column: 9/12;
-    grid-row: 1/2; 
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
 }
-#github{
-    grid-column: 12/15;
-    grid-row: 1/2; 
+
+th {
+    background-color: #f2f2f2;
 }
-#creatorsName{
-    grid-column: 9/13;
-    grid-row: 3; 
+img {
+    width: 80px;
+    height: auto;
 }
 body{
     background:url(../img/textures/background.jpeg) ; 
