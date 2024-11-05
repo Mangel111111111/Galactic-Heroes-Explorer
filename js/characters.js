@@ -1,6 +1,4 @@
 const characters = "https://dragonball-api.com/api/characters?limit=9999";
-const planets = "https://dragonball-api.com/api/planets?limit=9999";
-
 async function fetchCharacters(){
     try{
         const response = await fetch(characters);
@@ -15,19 +13,7 @@ async function fetchCharacters(){
     }
 }
 
-async function fetchPlanets(){
-    try{
-        const response = await fetch(planets);
-        if (!response.ok) {
-            throw new Error(`Error en la peticion ${response.status}`);
-        }
-        return await response.json();
-    }
-    catch (error){
-        console.error(`Error al obtener los planetas de la API : `,error);
-        return null;
-    }
-}
+
 
 function createCharacterCard ({id, name, image, ki, description}){
     return `<div class="card-group">
