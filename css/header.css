@@ -1,0 +1,26 @@
+header {
+    background-color: #e1840af5;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+nav {
+    background-color: #e39939f5;
+    text-align: center;
+    padding: 10px 0;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 15px;
+    border-radius: 5px;
+}
+nav a:hover {
+    background-color: rgb(255, 223, 0);
+}
