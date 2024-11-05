@@ -1,18 +1,35 @@
 footer{
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: rgb(32, 35, 41);
-    display: flex;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
+    background-color: #ff6600ed;
     color: white;
+    display: grid;
+
+}
+img{
+    width: 20%;
+    height: 20%;
+}
+.contactInfoFooter{
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 20px;
+    margin: 0 auto;
+}
+#linkedIn{
+    grid-column: 9/12;
+    grid-row: 1/2; 
+}
+#github{
+    grid-column: 12/15;
+    grid-row: 1/2; 
+}
+#creatorsName{
+    grid-column: 9/13;
+    grid-row: 3; 
 }
 body{
-    background:url(../img/Designer.jpeg) ; 
+    background:url(../img/textures/background.jpeg) ; 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
