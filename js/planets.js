@@ -13,3 +13,28 @@ async function fetchPlanets(){
         return null;
     }
 }
+function createPlanetCard ({id, name, isDestroyed, description, image}){
+    return `<div class="card-group">
+                    <div class="card" id='allCards'>
+                        <img src="${image}" class="card-img-top" alt="" id='allCards'>
+                        <div class="card-body">
+                            <h1>${name}</h1>
+                            <h3>${description}</h3>
+                        </div>
+                    </div>
+                </div>
+        `;
+    }
+    async function displayPlanets() {
+        const planetsSection = document.getElementById('planetsCards');
+        const planetsData = await fetchPlanets();
+    
+        if (planetsData && planetsData.items){
+            const planetCards = planetsData.items.map(createPlanetCard).join('');
+            planetsSection.innerHTML = planetCards;
+        }
+        else{
+            planetsSection.innerHTML = `<p>The Json of the planets could not be loaded</p>`
+        }
+    }
+    displayPlanets();

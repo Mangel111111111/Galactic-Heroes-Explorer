@@ -13,7 +13,7 @@ body{
 .card-body h4{
     color: chocolate;
 }
-.cardsCharacters{
+.cardsCharactersAndPlanets{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
