@@ -19,7 +19,7 @@ body{
     flex-wrap: wrap;
     justify-content: center
 }
-.card-img-top{
+.cardImgTop{
     width: auto;
     height: auto;
     max-width: 25em; 

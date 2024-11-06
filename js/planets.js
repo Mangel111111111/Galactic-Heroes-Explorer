@@ -16,7 +16,7 @@ async function fetchPlanets(){
 function createPlanetCard ({id, name, isDestroyed, description, image}){
     return `<div class="card-group">
                     <div class="card" id='allCards'>
-                        <img src="${image}" class="card-img-top" alt="" id='allCards'>
+                        <img src="${image}" class="card-img-top""cardImgTop" alt="" id='allCards'>
                         <div class="card-body">
                             <h1>${name}</h1>
                             <h3>${description}</h3>

@@ -15,7 +15,7 @@ async function fetchCharacters(){
 function createCharacterCard ({id, name, race, gender, ki, maxKi, affiliation, image}){
 return `<div class="card-group">
                 <div class="card" id='allCards'>
-                    <img src="${image}" class="card-img-top" alt="" id='allCards'>
+                    <img src="${image}" class="card-img-top cardImgTop" alt="" id='allCards'>
                     <div class="card-body">
                         <h1>${name}</h1>
                         <h3>${race} - ${gender}</h3>
