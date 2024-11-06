@@ -1,0 +1,21 @@
+.card-group{
+    width: 300px;
+    margin: 20px;
+}
+.card-body h4{
+    color: chocolate;
+}
+.cardsCharactersAndPlanets{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.cardImgTop{
+    width: auto;
+    height: auto;
+    max-width: 25em; 
+    max-height: 25em; 
+    object-fit: contain; 
+    margin: 0 auto;
+}

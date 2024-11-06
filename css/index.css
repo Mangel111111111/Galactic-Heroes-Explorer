@@ -1,29 +1,20 @@
 @import url(footer.css);
 @import url(header.css);
+@import url(cards.css);
 body{
     background:url(../img/textures/background.jpeg) ; 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
 }
-.card-group{
-    width: 300px;
-    margin: 20px;
+.gokuPhoto{ 
+    height: auto;
+    width: 50rem;
+    border-radius: 50%;
 }
-.card-body h4{
-    color: chocolate;
-}
-.cardsCharactersAndPlanets{
+.gokuPhotoContainer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center
-}
-.cardImgTop{
-    width: auto;
-    height: auto;
-    max-width: 25em; 
-    max-height: 25em; 
-    object-fit: contain; 
-    margin: 0 auto;
 }
