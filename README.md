@@ -2,7 +2,7 @@
 Galactic Heroes Explorer is a comprehensive and structured interface that provides detailed information about the characters and planets within the Dragon Ball universe.
 
 ## Features
-- Character Data: Access to information on notable characters
+- Information on significant characters within the Dragon Ball universe
 - Information on significant planets within the Dragon Ball lore
 
 ## Technologies Used
