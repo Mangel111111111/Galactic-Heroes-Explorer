@@ -13,7 +13,7 @@ async function fetchPlanets(){
         return null;
     }
 }
-function createPlanetCard ({id, name, isDestroyed, description, image}){
+function createPlanetCard ({name, description, image}){
     return `<div class="card-group">
                     <div class="card" id='allCards'>
                         <img src="${image}" class="card-img-top""cardImgTop" alt="" id='allCards'>
